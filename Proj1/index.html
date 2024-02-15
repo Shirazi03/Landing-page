@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <nav>
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="flex justify-between">
+
+                <div class="flex space-x-4">
+                    <!-- logo -->
+                    <div>
+                        <a href="#" class="flex items-center py-5 px-2">
+                            <svg class="h-9 w-9 mr-2" viewBox="0 0 48 38" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <g clip-path="url(#clip0)">
+                                    <path
+                                        d="M46.7638 6.446C45.6401 4.19338 43.82 2.3662 41.5755 1.23767C39.1108 -1.39868e-05 35.8975 0 29.4709 0C28.1661 0 25.0574 0 24.0045 0C22.9516 0 19.8357 0 18.538 0C12.1209 0 8.8981 -1.39868e-05 6.43583 1.23767C4.19014 2.36536 2.36899 4.19271 1.24511 6.446C0.0115972 8.9166 0.0115967 12.1408 0.0115967 18.5915C0.0115967 25.0423 0.0115972 28.2665 1.24511 30.7371C2.36983 32.9892 4.19082 34.8155 6.43583 35.943C8.8981 37.1831 12.1114 37.1831 18.538 37.1831C19.8429 37.1831 22.9516 37.1831 24.0045 37.1711C25.0574 37.1592 28.1708 37.1831 29.4709 37.1831C35.888 37.1831 39.1108 37.1831 41.5755 35.943C43.8194 34.8148 45.6395 32.9886 46.7638 30.7371C47.9973 28.2665 47.9973 25.0399 47.9973 18.5915C47.9973 12.1432 47.9973 8.9166 46.7638 6.446Z"
+                                        fill="#FFCEAA" />
+                                    <path
+                                        d="M13.1456 25.3261C12.8494 24.7387 12.3967 24.2452 11.8379 23.9004C11.279 23.5556 10.6359 23.3731 9.97981 23.373H6.23886C5.85504 23.3738 5.47568 23.4556 5.12535 23.6129C4.77502 23.7703 4.46154 23.9997 4.20521 24.2863C3.94888 24.573 3.75541 24.9104 3.63736 25.2769C3.5193 25.6433 3.47929 26.0306 3.5199 26.4135C3.64824 27.6226 3.85977 28.5408 4.20677 29.2395C5.01384 30.8459 6.31348 32.1499 7.91445 32.9597C9.09092 33.5512 10.8853 33.7467 13.6542 33.8111C14.0502 33.8204 14.4418 33.7263 14.7907 33.5381C15.1396 33.3499 15.4337 33.0741 15.6443 32.7375C15.855 32.4009 15.9748 32.0152 15.9922 31.6181C16.0095 31.221 15.9238 30.8262 15.7433 30.4724L13.1456 25.3261Z"
+                                        fill="#FF3B9A" />
+                                    <path
+                                        d="M8.0903 20.2728C9.32061 20.2724 10.5327 19.9746 11.624 19.4046C12.7154 18.8347 13.6539 18.0094 14.3601 16.9986L17.9845 11.8046C18.6383 10.8679 19.0485 9.78225 19.178 8.64616C19.3075 7.51006 19.1522 6.3595 18.7261 5.29894V5.26797C18.5255 4.7557 18.1917 4.30671 17.7595 3.96782C17.3273 3.62893 16.8124 3.41251 16.2685 3.34106C11.9691 3.35537 9.43552 3.46268 7.92631 4.22341C6.32199 5.02742 5.02096 6.33203 4.21864 7.94127C3.56979 9.26242 3.37254 12.9755 3.32263 15.985C3.31315 16.5457 3.41512 17.1027 3.62259 17.6235C3.83005 18.1442 4.13884 18.6182 4.53093 19.0178C4.92301 19.4174 5.39053 19.7347 5.90618 19.951C6.42182 20.1673 6.97525 20.2783 7.53415 20.2776L8.0903 20.2728Z"
+                                        fill="#FF3B9A" />
+                                    <path
+                                        d="M43.7908 7.94121C42.9836 6.33552 41.6839 5.03226 40.0831 4.22336C38.4812 3.41731 35.7313 3.34578 30.9423 3.33862C24.4539 3.33862 22.436 10.8291 21.0528 12.8133L16.9767 18.6535C16.3218 19.5915 15.9329 20.6902 15.8512 21.8325C15.7696 22.9748 15.9984 24.1179 16.5133 25.14L19.5341 31.1353C19.9457 31.9533 20.5771 32.6395 21.3571 33.1161C22.1371 33.5928 23.0344 33.8409 23.9476 33.8325H24.0308C25.098 33.8444 28.3897 33.8445 29.4711 33.8445C35.1752 33.8445 38.3244 33.8445 40.0831 32.9597C41.6841 32.1499 42.9837 30.8459 43.7908 29.2395C44.6702 27.4748 44.6702 24.3197 44.6702 18.5915C44.6702 12.8633 44.6702 9.70593 43.7908 7.94121Z"
+                                        fill="#FF3B9A" />
+                                </g>
+                                <defs>
+                                    <clipPath id="clip0">
+                                        <rect width="48" height="37.1831" fill="white" />
+                                    </clipPath>
+                                </defs>
+                            </svg>
+                            <span class="font-bold">Steakwallet</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- secondary nav -->
+                <div class="hidden md:flex items-center space-x-1">
+                    <a href="" class="py-5 px-3">Dashboard</a>
+                    <a href="" class="py-5 px-3">Editor</a>
+                    <a href="" class="py-5 px-3">CMS</a>
+                    <a href="" class="py-5 px-3">Ecommerce</a>
+                    <a href="" class="py-5 px-3">Interactions</a>
+                    <a href="" class="py-5 px-3">University</a>
+                    <button type="button"
+                        class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800">Default</button>
+                    <button type="button"
+                        class="text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                            <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                          </svg>
+                    </button>
+                    <button type="button"
+                        class="text-gray-900 bg-gray-100 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-500 me-2 mb-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-question-diamond" viewBox="0 0 16 16">
+                            <path d="M6.95.435c.58-.58 1.52-.58 2.1 0l6.515 6.516c.58.58.58 1.519 0 2.098L9.05 15.565c-.58.58-1.519.58-2.098 0L.435 9.05a1.48 1.48 0 0 1 0-2.098zm1.4.7a.495.495 0 0 0-.7 0L1.134 7.65a.495.495 0 0 0 0 .7l6.516 6.516a.495.495 0 0 0 .7 0l6.516-6.516a.495.495 0 0 0 0-.7L8.35 1.134z"/>
+                            <path d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94"/>
+                          </svg>
+                    </button>
+                    <div class="w-[5rem] grid place-items-center">
+                        <img style="width: 40px;" src="https://media.istockphoto.com/id/1130884625/vector/user-member-vector-icon-for-ui-user-interface-or-profile-face-avatar-app-in-circle-design.jpg?s=612x612&w=0&k=20&c=1ky-gNHiS2iyLsUPQkxAtPBWH1BZt0PKBB1WBtxQJRE=" alt="">
+                    </div>
+                </div>
+
+                <!--       mobile button goes here -->
+                <div class="md:hidden flex items-center">
+                    <button class="mobile-menu-button">
+                        <svg class="w-6 h-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- mobile menu -->
+        <div class="mobile-menu hidden md:hidden">
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Dashboard</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Editor</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">CMS</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Ecommerce</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">Interactions</a>
+            <a href="#" class="block py-2 px-4 text-sm hover:bg-gray-200">University</a>
+        </div>
+    </nav>
+
+    <section class="w-[80vw] min-h-[100vh] mx-auto px-4">
+        <div class="w-full h-[80vh] relative">
+            <img src="images/bg_home.jpeg" alt="">
+            <div class="absolute top-[30%] left-[5%] p-8">
+                <h1 class="text-[3rem] text-white font-bold">Your team's work, beautifully <br> organized</h1>
+                <h1 class="text-[1rem] text-white ">Manage your web projects with tasks,deadlines and priorities.Bring your dream together and ship with <br> confidence</h1>
+                <div class="flex mt-[2rem]">
+                    <button type="button" class="px-6 py-3.5 text-base font-medium text-white mr-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get Started</button>
+                    <button type="button" class="px-6 py-3.5 text-base font-medium text-white bg-gray-400 mr-2 hover:bg-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 rounded-lg text-center dark:bg-gray-100 dark:hover:bg-gray-100 dark:focus:ring-gray-100">Learn more</button>
+                </div>
+            </div>
+        </div>
+        <h1 class="my-[4rem] text-[2.5rem] font-bold">Features</h1>
+        <div class="flex justify-between w-full h-[35vh] mb-[4rem]">
+            <div class="w-[32%]">
+                <img src="images/feature (1).jpeg" class="w-[25rem]" alt="">
+                <h1 class="ml-2 text-black font-bold">Plan your work</h1>
+                <h1 class="ml-2 text-grey-300">Create tasks with deadlines , assign them to teammates, and organize tem into lists</h1>
+            </div>
+            <div class="w-[32%]">
+                <img src="images/feature (2).jpeg" class="w-[25rem]" alt="">
+                <h1 class="ml-2 text-black font-bold">Plan your work</h1>
+                <h1 class="ml-2 text-grey-300">Create tasks with deadlines , assign them to teammates, and organize tem into lists</h1>
+            </div>
+            <div class="w-[32%]">
+                <img src="images/feature (3).jpeg" class="w-[25rem]" alt="">
+                <h1 class="ml-2 text-black font-bold">Plan your work</h1>
+                <h1 class="ml-2 text-grey-300">Create tasks with deadlines , assign them to teammates, and organize tem into lists</h1>
+            </div>
+        </div>
+        <br>
+        <div class="flex justify-between w-full mb-[4rem]">
+            <img class="w-[14rem]" src="images/smallFeature (1).jpeg" alt="">
+            <img class="w-[14rem]" src="images/smallFeature (2).jpeg" alt="">
+            <img class="w-[14rem]" src="images/smallFeature (3).jpeg" alt="">
+            <img class="w-[14rem]" src="images/smallFeature (4).jpeg" alt="">
+            <img class="w-[14rem]" src="images/smallFeature (5).jpeg" alt="">
+        </div>
+        <h1 class="p-[3rem] text-[3rem] text-center font-bold">Joined the thousands of companies using  Webflow to build better websites</h1>
+        <div class="w-full grid place-items-center mb-6">
+            <button type="button" class="px-6 py-3.5 text-base font-medium text-white mr-2 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 rounded-lg text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Get Started</button>
+        </div>
+    </section>
+
+
+    <script src="nav.js"></script>
+
+
+
+</body>
+
+</html>
